@@ -1,0 +1,92 @@
+.rapper{
+    float: left;
+    width: 100%;
+}
+.header{
+    float: left;
+    height: 90px;
+    width: 100%;
+}
+.logo{
+    float: left;
+}
+.logo h1{
+    float: left;
+}
+.nav{
+    float: left;
+    padding-left: 440px;
+    margin-top: 16px;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+    padding-left: 20px;
+}
+.btn{
+    float: left;
+    list-style: none;
+
+}
+button{
+    cursor: pointer;
+}
+.main{
+    float: left;
+     width: 100%;
+     margin-top: 50px;
+}
+.contain{
+    float: left;
+    width: 50%;
+    margin-top: -44px;
+}
+.contain button{
+
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: yellow;
+
+}
+.contain h1{
+    font-size: 40px;
+}
+.contain p{
+    font-size: 20px;
+}
+.contain ul li{
+    float: left;
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #dfc526;
+}
+.container{
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+    height:60vh;
+}
+.div{
+    float: left;
+    margin-left: 100px;
+    width: 25%;
+}
+.div-1{
+    float: left;
+    margin-left: 100px;
+    width: 25%;
+
+}
+.div-2{
+    float: left;
+    margin-left: 100px;
+    width: 25%;
+  
+}
+
+
+
+
