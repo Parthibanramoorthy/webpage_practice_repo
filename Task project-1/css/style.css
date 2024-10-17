@@ -1,0 +1,1151 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face {
+    font-family: my big;
+    src: url(./fonts/Rajdhani-Bold.ttf);
+}
+@font-face {
+    font-family: first font;
+    src: url(./font/Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: my smal;
+    src: url(./fonts/Rajdhani-Medium.ttf);
+}
+
+.head{
+    width: 100%;
+    float: left;
+    height: 9vh;
+    background-color: #2d394b;
+   
+}
+.icon{
+    float: left;
+    margin-left:600px;
+    margin-top: -25px;
+    font-size: 25px;
+    color: white;
+}
+.head p{
+margin-left: 60px;
+margin-top: 20px;
+color: #597dbe;
+
+}
+.btn{
+    margin-top: -29px;
+   
+}
+.i{
+    margin-left: 390px;
+    margin-top: -29px;
+    float: left;
+}
+.header{
+    float: left;
+    width: 100%;
+    height: 9vh;
+    background-color:#131a25;
+  
+}
+.logo{
+    float: left;
+    margin-top: 29px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.nav{
+    float: left;
+    margin-left: 400px;
+}
+.nav ul li{
+    float: left;
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: 50px;
+    font-family: my big;
+}
+.main{
+    width: 100%;
+    height:120vh;
+    float: left;
+    background-image:url('../img/slide2.jpg');
+    margin-top: 30px;
+}
+.main p{
+    font-family: first font;
+    margin-left: 410px;
+     font-size: 40px;
+     color: #f3dd54;
+     margin-top: 310px;
+    
+
+}
+.main h1{
+    font-family: my big; 
+     text-align: center;
+     margin-top: 10px;
+     font-size: 70px;
+
+}
+.main h2{
+    float: left;
+    font-family: my big;
+    margin-left: 340px;
+    margin-top: 40px;
+    color: #ffffff;
+    
+}.main h3{
+    float: left;
+    font-family: my big;
+    margin-left: 90px;
+    margin-top: 40px;
+    color: #ffffff;
+    
+}.main h4{
+    float: left;
+    font-family: my big;
+    margin-left: 90px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+.point{
+    float: left;
+    margin-top: 80px;
+    margin-left: -460px;
+    height: 35px;
+    width: 160px;
+    padding-left: 15px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    
+}
+.pointer{
+    float: left;
+    margin-top: 80px;
+    margin-left: -280px;
+    height: 35px;
+    width: 160px;
+    padding-left: 15px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    
+}
+.pointers p{
+    float: left;
+    margin-top: 80px;
+    font-size: 17px;
+    font-family: my big;
+    margin-left: -100px; 
+    height: 35px;
+    width: 160px;
+    padding-left: 15px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    color:black;
+    font-size: 13px;
+    
+    
+}
+.pointerss{
+    float: left;
+    margin-top: 80px;
+    margin-left: 5px;
+
+}
+.containear{
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    height: 150vh;
+}
+.containear h1{
+text-align: center;
+font-family: first font;  
+font-size: 25px;
+color: #32aad6;
+}
+.containear h2{
+font-family: my big;
+text-align: center;
+font-size: 40px;
+margin-top: 15px;
+}
+.contain-1{
+    width: 20%;
+    float: left;
+    margin-left: 55px;
+    margin-top: 40px;
+    
+
+}
+.contain-2{
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+.contain-3{
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+.contain-4{
+    width: 20%;
+    margin-left:-814px;
+    margin-top: 405px;
+    float: left;
+
+}
+.contain-5{
+    width: 20%;
+    float: left;
+    margin-left: -533px;
+    margin-top: 405px;
+
+}
+.contain-6{
+    width: 20%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 390px;
+  
+
+}
+.ton button:hover{
+   cursor: pointer;
+   color:#32aad6;
+   border-color:green ;
+}
+.contain-1 p{
+    margin-top: -145px;
+     margin-left: 30px;
+     font-family: my big;
+     color: #ffffff;
+     font-size: 18px;
+     letter-spacing: 2px;
+}
+.contain-2 p{
+    margin-top: -145px;
+    margin-left: 30px;
+    font-family: my big;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 2px; 
+}
+.contain-3 p{
+    margin-top: -145px;
+    margin-left: 30px;
+    font-family: my big;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 2px; 
+}
+.contain-4 p{
+    margin-top: -145px;
+    margin-left: 30px;
+    font-family: my big;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 2px; 
+}
+.contain-5 p{
+    margin-top: -145px;
+    margin-left: 30px;
+    font-family: my big;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 2px; 
+}
+.contain-6 p{
+    margin-top: -145px;
+    margin-left: 30px;
+    font-family: my big;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 2px; 
+}
+.imgcontainear{
+    float: left;
+    width: 100%;
+    height: 130vh;
+    background-color: #f0f2f6;
+}
+.imgcontainear h1{
+ text-align: center;
+ font-family: first font;
+ font-size: 25px;
+ color:#32aad6;
+ margin-top: 40px;
+ margin-left: -17px;
+}
+.imgcontainear h2{
+    text-align: center;
+    font-family:my big;
+    font-size: 40px;
+    margin-top: 10px;
+   
+}
+.imgcontain-1{
+    float: left;
+    width: 15%;
+    margin-left: 25px;
+    margin-top: 45px;
+}
+.imgcontain-2{
+    float: left;
+    width: 15%;
+    margin-left: 120px;
+    margin-top: 45px;
+}.imgcontain-3{
+    float: left;
+    width: 15%;
+    margin-left: 120px;
+    margin-top: 45px;
+}
+.imgcontain-4{
+    float: left;
+    width: 15%;
+    margin-left: 120px;
+    margin-top: 45px;
+}
+.imgcontain-1 p{
+ margin-top: 10px;
+ font-family: my first;
+ font-size: 15px;
+ margin-left: 60px;
+ font-weight: 800;
+font-family: my fon;
+
+ 
+}
+.imgcontain-1 h1{
+    margin-top: 0px;
+    margin-left:-15px;
+    color: black;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: my big;
+    margin-top: 10px;
+
+}
+.imgcontain-1 ul li{
+    float: left;
+    margin-top:5px;
+    color: gold;
+    margin-top:10px ;
+    
+}
+.imgcontain-1 h2{
+    font-size: 15px;
+    font-family:my font ;
+    margin-left: 115px;
+    margin-top: -40px;
+    font-weight: 800;
+}
+.imgcontain-1 h3{
+    float: left;
+    font-size:15px;
+    font-family: my first;
+    margin-left: 58px; 
+    margin-top: 20px;
+}
+.imgcontain-1 h4{
+margin-left: 180px;
+ margin-top: 25px;
+ color: green;
+ font-family: my big;
+ font-size: 20px;
+
+}
+.img-1 button:hover{
+    cursor: pointer;
+    background-color: #32aad6;
+    color: white;
+    border: none;
+
+}
+.img-1 {
+    border: 1px solid black;
+    height: 340px;
+    width: 279px;
+    margin-top: -3px;
+    
+}
+.img-1:hover{
+    box-shadow:0 0 10px black;
+}
+.imgcontain-2 p{
+    margin-top: 10px;
+    font-family: my first;
+    font-size: 15px;
+    margin-left: 60px;
+    font-weight: 800;
+    font-family: my fontss;
+   
+    
+ }
+   .imgcontain-2 h1{
+       margin-top: 0px;
+       margin-left:-95px;
+       color: black;
+       font-size: 20px;
+       margin-top: 5px;
+       font-family: my big;
+       margin-top: 10px;
+   
+   }
+   .imgcontain-2 ul li{
+       float: left;
+       margin-top:5px;
+       color: gold;
+       margin-top:10px ;
+       
+   }
+   .imgcontain-2 h2{
+       font-size: 15px;
+       font-family:my font ;
+       margin-left: 115px;
+       margin-top: -15px;
+       font-weight: 800;
+   }
+   .imgcontain-2 h3{
+       float: left;
+       font-size:15px;
+       font-family: my fon;
+       margin-left: 58px; 
+       margin-top: 20px;
+   }
+   .imgcontain-2 h4{
+   margin-left: 180px;
+    margin-top: 25px;
+    color: green;
+    font-family:my big;
+    font-size: 20px;
+   
+   }
+   .img-2 button:hover{
+       cursor: pointer;
+       background-color: #32aad6;
+       color: white;
+       border: none;
+   
+   }
+   .img-2 {
+       border: 1px solid black;
+       height: 340px;
+       width: 278px;
+       margin-top: -3px;
+       
+   }
+   .img-2:hover{
+       box-shadow:0 0 10px black;
+   }.imgcontain-3 p{
+    margin-top: 10px;
+    font-family: my first;
+    font-size: 15px;
+    margin-left: 60px;
+    font-weight: 800;
+  
+   
+    
+   }
+   .imgcontain-3 h1{
+       margin-top: 0px;
+       margin-left:-15px;
+       color: black;
+       font-size: 20px;
+       margin-top: 5px;
+       font-family: my big;
+       margin-top: 10px;
+   
+   }
+   .imgcontain-3 ul li{
+       float: left;
+       margin-top:5px;
+       color: gold;
+       margin-top:10px ;
+       
+   }
+   .imgcontain-3 h2{
+       font-size: 15px;
+       font-family:my font ;
+       margin-left: 115px;
+       margin-top: -40px;
+       font-weight: 800;
+   }
+   .imgcontain-3 h3{
+       float: left;
+       font-size:15px;
+       font-family: my first;
+       margin-left: 58px; 
+       margin-top: 20px;
+   }
+   .imgcontain-3 h4{
+   margin-left: 180px;
+    margin-top: 25px;
+    color: green;
+    font-family: my big;
+    font-size: 20px;
+   
+   }
+   .img-3 button:hover{
+       cursor: pointer;
+       background-color: #32aad6;
+       color: white;
+       border: none;
+   
+   }
+   .img-3 {
+       border: 1px solid black;
+       height: 340px;
+       width: 278px;
+       margin-top: -3px;
+       
+   }
+   .img-3:hover{
+       box-shadow:0 0 10px black;
+   }
+   .imgcontain-4 p{
+    margin-top: 10px;
+    font-family: my first;
+    font-size: 15px;
+    margin-left: 60px;
+    font-weight: 800;
+    font-family:;
+   
+    
+ }
+   .imgcontain-4 h1{
+       margin-top: 0px;
+       margin-left:-85px;
+       color: black;
+       font-size: 20px;
+       margin-top: 5px;
+       font-family: my big;
+       margin-top: 10px;
+   
+   }
+   .imgcontain-4 ul li{
+       float: left;
+       margin-top:5px;
+       color: gold;
+       margin-top:10px ;
+       
+   }
+   .imgcontain-4 h2{
+       font-size: 15px;
+       font-family:my font ;
+       margin-left: 115px;
+       margin-top: -15px;
+       font-weight: 800;
+   }
+   .imgcontain-4 h3{
+       float: left;
+       font-size:15px;
+       font-family: my fon;
+       margin-left: 58px; 
+       margin-top: 20px;
+   }
+   .imgcontain-4 h4{
+   margin-left: 180px;
+    margin-top: 25px;
+    color: green;
+    font-family: my big;
+    font-size: 20px;
+   
+   }
+   .img-2 button:hover{
+       cursor: pointer;
+       background-color: #32aad6;
+       color: white;
+       border: none;
+   
+   }
+   .img-2 {
+       border: 1px solid black;
+       height: 340px;
+       width: 278px;
+       margin-top: -3px;
+       
+   }
+   .img-2:hover{
+       box-shadow:0 0 10px black;
+   }
+   .imgsource{
+    width: 100%;
+    float: left;
+
+   }
+   .imgsource-1{
+    width: 40%;
+    float: left;
+   }
+   .imgsource-2{
+    width: 40%;
+    float: left;
+    margin-left: 150px;
+   }
+   .imgsource-2 p{
+    margin-top: 60px;
+    font-family: first font;
+    font-size: 30px;
+    color: #32aad6;
+  
+   }
+   .imgsource-2 h1{
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: my big;
+    
+   }
+   .imgsource-2 h2{
+    font-family: my smal;
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: line-through;
+   }
+   .imgsource-2 h3{
+    margin-left:80px;
+    margin-top: -20px;
+    font-size: 20px;
+    font-family: my smal;
+   }
+   .imgsource-2 h4{
+    float: left;
+    margin-left: 20px;
+    font-family: my smal;
+    font-size: 15px;
+    margin-top: 10px;
+   }
+   .imgsource-2 h5{
+    float: left;
+    margin-left: 90px;
+    font-family: my smal;
+    font-size: 15px;
+    margin-top: 10px;
+   
+   }
+   .imgsource-2 h6{
+    float: left;
+    font-family: my smal;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 40px;
+   }
+.class{
+    width: 100%;
+    float: left;
+    height: 40vh;
+    margin-top: 90px;
+}
+.class-1{
+    float: left;
+    width: 28%;
+    font-size: 50px;
+    color: #32aad6;
+    margin-left: 105px;
+}
+.class-2{
+    float: left;
+    width: 28%;
+    font-size: 50px;
+    color: #32aad6;
+    margin-left: 30px
+}
+.class-3{
+    float: left;
+    width: 28%;
+    font-size: 50px;
+    color: #32aad6;
+    margin-left: 30px
+}
+.class-1 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: -30px;
+    margin-top: 35px;
+    font-family: my big;
+    text-transform: uppercase;
+}
+.class-1 p{
+    font-size: 15px;
+    margin-left:-30px ;
+    margin-top:25px;
+    color: black;
+    font-family: my smal;
+    line-height: 25px;
+}
+.class-1 button:hover{
+    cursor: pointer;
+   
+}
+.class-1 i:hover{
+    color: green;
+    background-color: #d0d0d0;
+}
+.class-2 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: -30px;
+    margin-top: 35px;
+    font-family: my big;
+    text-transform: uppercase;
+}
+.class-2 p{
+    font-size: 15px;
+    margin-left:-30px ;
+    margin-top:25px;
+    color: black;
+    font-family: my smal;
+    line-height: 25px;
+}
+.class-2 button:hover{
+    cursor: pointer;
+   
+}
+.class-2 i:hover{
+    color: green;
+    background-color: #d0d0d0;
+}
+.class-3 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: -30px;
+    margin-top: 35px;
+    font-family: my big;
+    font-size: 100;
+    text-transform: uppercase;
+}
+.class-3 p{
+    font-size: 15px;
+    margin-left:-30px ;
+    margin-top:25px;
+    color: black;
+    font-family: my smal;
+    line-height: 25px;
+}
+.class-3 button:hover{
+    cursor: pointer;
+   
+}
+.class-3 i:hover{
+    color: green;
+    background-color: #d0d0d0;
+}
+.background{
+    width: 100%;
+    float: left;
+    height: 70vh;
+    margin-top: 150px;
+    background-image: url('../img/ban.jpg');
+}
+.background h1{
+    text-transform: uppercase; 
+    margin-top: 10px;
+    font-size: 80px;
+    font-family: my big;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+.background h2{
+    text-transform: uppercase; 
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: my smal;
+    text-align: center;
+    font-weight: 400;
+    color: white;
+}
+.background i{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 150px;
+    margin-left: 580px;
+    color: green;
+}
+.back{
+    width: 100%;
+    float: left;
+    background-color:#f4f6fa;
+}
+.blue{
+   
+    width: 100%;
+    background-color:#f4f6fa;
+    height: 100vh;
+    margin-left: 0px;
+}
+
+.blue-1{
+    float: left;
+    width: 27%;
+    border: 1px solid #d0d0d0;
+    height: 400px;
+    background-color: #ffffff;
+    margin-left: 70px;
+    margin-top: 40px;
+
+}
+.blue-2{
+    float: left;
+    width: 27%;
+    border: 1px solid #d0d0d0;
+    height: 400px;
+    background-color: #ffffff;
+    margin-left: 15px;
+    margin-top: 40px;
+    
+}
+.blue-3{
+    float: left;
+    width: 27%;
+    border: 1px solid #d0d0d0;
+    height: 400px;
+    background-color: #ffffff;
+    margin-left: 15px;
+    margin-top: 40px;
+    
+}
+.blue-1 h1{
+    margin-top: px;
+  position: relative;
+  left: 130px;
+  top: -35px;
+  font-family: my smal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align:left;
+}
+.blue-1 h2{
+    font-size: 15px;
+    font-family: my smal;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    line-height: 25px;
+    margin-top: 40px;
+}
+.blue-1:hover{
+    box-shadow: 0 0 5px black;
+}
+.blue-2 h1{
+    margin-top: px;
+  position: relative;
+  left: 130px;
+  top: -35px;
+  font-family: my smal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align:left;
+}
+.blue-2 h2{
+    font-size: 15px;
+    font-family: my smal;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    line-height: 25px;
+    margin-top: 40px;
+}
+.blue-2:hover{
+    box-shadow: 0 0 5px black;
+}
+.blue-3 h1{
+    margin-top: px;
+  position: relative;
+  left: 130px;
+  top: -35px;
+  font-family: my smal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align:left;
+}
+.blue-3 h2{
+    font-size: 15px;
+    font-family: my smal;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 30px;
+    line-height: 25px;
+    margin-top: 40px;
+}
+.blue-3:hover{
+    box-shadow: 0 0 5px black;
+}
+ .city{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+} 
+.city h1{
+    text-align: center;
+    font-family:  first font;
+    font-size: 25px;
+    margin-top:100px;
+    color: #32aad6;
+}
+.city h2{
+    text-align: center;
+    font-size: 40px; 
+    font-family: my big;
+    text-transform: uppercase;
+margin-top: 8px;
+
+}
+.pink{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+
+}
+.red{
+    color: #32aad6;
+    text-align: center;
+    font-size: 25px;
+    font-family:first font;
+}
+.green{
+   margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: my big;
+}
+.news{
+    float: left;
+    width: 100%;
+}
+.nepal{
+    float: left;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 10px;
+    
+}
+.thailand{
+    float: left;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.friends{
+    float: left;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.n-caption{
+    float: left;
+    width: 399px;
+    border: 1px solid #d0d0d0;
+    height: 250px;
+    margin-top: -5px;
+
+}
+.n-caption:hover{
+    box-shadow: 0 0px 10px black;
+}
+.n-caption ul li{
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: my smal;
+    text-transform: uppercase;
+}
+.n-caption h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: my smal;
+    font-weight: 700;
+}
+.n-caption p{
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: my smal;
+    font-size: 15px;
+    line-height: 25px;
+  
+}
+.blog{
+    margin-left: 25px;
+}
+.f-caption{
+    float: left;
+    width: 399px;
+    border: 1px solid #d0d0d0;
+    height: 250px;
+    margin-top: -5px;
+    
+
+}
+.f-caption:hover{
+    box-shadow: 0 0px 10px black;
+}
+.f-caption ul li{
+    float: left;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: my smal;
+    text-transform: uppercase;
+}
+.f-caption h1{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: my smal;
+    font-weight: 700;
+}
+.f-caption p{
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: my smal;
+    font-size: 15px;
+    line-height: 25px;
+  
+}
+.blog{
+    margin-left: 25px;
+}
+.air{
+    margin-top: 50px;
+    height: 50vh;
+    width: 100%;
+    float: left;
+}
+.end{
+    width: 100%;
+    float: left;
+    height: 70vh;
+    background-image: url('../img/47.jpg');
+    margin-top: -80px;
+}
+.end p{
+    text-align: center;
+    color: white;
+    font-family: first font;
+    font-size: 20px;
+    margin-top: 120px;
+}
+.end h1{
+    text-align: center;
+    color: white;
+    font-family:my big;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.end input{
+    text-align:left;
+    height: 40px;
+    width: 380px;
+    position: relative;
+    left: 370px;
+    margin-top: 10px;
+}
+.end h3{
+    text-align: center;
+    color: #ffffff;
+    font-family: my smal;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 24px;
+}
+.visa{
+    width: 100%;
+    height: 40vh;
+    background-color: #131a25;
+    float: left;
+}
+.visa h1{
+    font-family: my big;
+    margin-top: 20px;
+    font-size:25px;
+}
+.visa p{
+    margin-top: 15px;
+    line-height: 25px;
+    font-family: my smal;
+}
+
+.about{
+    width: 20%;
+    float: left;
+    color: #ffffff;
+    margin-left: 40px;
+}
+.company{
+    width: 15%;
+    float: left;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.links{
+    width: 20%;
+    float: left;
+    color: #ffffff;
+}
+
+.info{
+    width: 20%;
+    float: left;
+    color: #ffffff;
+
+}
+.contact{
+    width: 20%;
+    float: left;
+    color: #ffffff;
+}
